@@ -1,0 +1,33 @@
+
+
+
+.sezione-ordini {
+  margin-bottom: 150px;
+}
+
+.info-ordini {
+  text-align: center;
+
+  margin-top: 90px;
+  font-size: 25px;
+}
+
+#titolo-ordini {
+  margin-top: 20px;
+}
+
+.mail,
+.numero {
+  color: rgb(64, 98, 41);
+  text-decoration: none;
+}
+
+.mail:link {
+  color: rgb(64, 98, 41);
+}
+
+.mail:hover {
+  text-shadow: 0 0 10px rgb(185, 173, 173);
+  cursor: pointer;
+  transition: 0.3s;
+}

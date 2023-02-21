@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  font-family: 'MV Boli', sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+  flex-wrap: wrap;
+
+  margin-top: 110px;
+}
+
+
+.immagine-prodotto {
+  width: 500px;
+  border-radius: 240px;
+  margin-right: 50px;
+}
+
+p {
+  width: 450px;
+}
+
+.nome-prodotto {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.formato-prodotto {
+  font-size: 17px;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+.descrizione-prodotto {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+.ingredienti-prodotto {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 25px;
+  line-height: 18px;
+}
+
+
+@media (min-width: 200px) and (max-width: 1000px) {
+  .immagine-prodotto {
+    width: 400px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 840px) {
+  .immagine-prodotto {
+    width: 400px;
+    margin-right: 0px;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+}

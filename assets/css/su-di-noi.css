@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+}
+
+
+.pagina-su-di-noi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 100;
+
+  margin-top: 50px;
+  height: 2000px;
+}
+
+#primo-paragrafo {
+  margin-top: 17px;
+}
+
+.paragrafo-su-di-noi {
+  width: 700px;
+  margin-top: 20px;
+
+  text-align: justify;
+  font-size: 18px;
+}
+
+.paragrafo {
+  margin-top: 50px;
+}
+
+.div-immagine-allevamento {
+  margin-top: 40px;
+}
+
+.immagine-allevamento {
+  width: 800px;
+}
+
+
+@media (min-width: 200px) and (max-width: 300px) {
+  .paragrafo {
+    font-size: 2.5vw;
+  }
+
+  .paragrafo-su-di-noi {
+    width: 200px;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 400px) {
+  .paragrafo {
+    font-size: 2.5vw;
+  }
+
+  .paragrafo-su-di-noi {
+    width: 270px;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  .paragrafo {
+    font-size: 2.5vw;
+  }
+
+  .paragrafo-su-di-noi {
+    width: 350px;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 650px) {
+  .paragrafo {
+    font-size: 2.5vw;
+  }
+
+  .paragrafo-su-di-noi {
+    width: 400px;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 800px) {
+  .paragrafo {
+    font-size: 2.5vw;
+  }
+
+  .paragrafo-su-di-noi {
+    width: 620px;
+    font-size: 3vw;
+  }
+}
