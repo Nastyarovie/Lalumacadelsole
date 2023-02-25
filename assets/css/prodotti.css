@@ -11,10 +11,12 @@
 }
 
 .immagine-prodotto {
-  width: 100%;
+  width: 300px;
+  height: 300px;
   border-radius: 150px;
   border: solid rgb(64, 98, 41) 5px;
   box-shadow: 0 0 20px rgb(64, 98, 41);
+  object-fit: cover;
 }
 
 .immagine-prodotto:hover {
@@ -52,6 +54,18 @@
   font-size: 14px;
   margin-top: 8px;
   text-align: center;
+}
+
+footer {
+  position: absolute;
+  left: 50%;
+  top: 380%;
+  text-align: center;
+  background-color: red;
+}
+
+.logo {
+  display: inline-block;
 }
 
 @media (min-width: 650px) and (max-width: 1200px) {
