@@ -58,9 +58,9 @@
 
 footer {
   position: absolute;
-  left: 50%;
-  top: 380%;
-  text-align: center;
+  left: 0%;
+  width: 100%;
+  background-color: red;
 }
 
 .logo {

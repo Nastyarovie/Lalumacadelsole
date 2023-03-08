@@ -2,9 +2,7 @@
   margin: 0;
 }
 
-body {
-  margin: 0px;
-
+.pagina-contatti {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +11,8 @@ body {
 
   margin-top: 100px;
   margin-bottom: 50px;
+
+  height: 700px;
 }
 
 #titolo-contatti {
@@ -41,4 +41,11 @@ body {
 
 #mail {
   margin-bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  top: 150%;
+  text-align: center;
+  width: 100%;
 }
