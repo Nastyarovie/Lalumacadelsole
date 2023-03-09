@@ -1,4 +1,10 @@
 .pagina-home {
+  height: 100%;
+  background: rgb(3,121,18);
+  background: linear-gradient(186deg, rgba(3,121,18,0.7) 0%, rgba(191,189,15,1) 43%, rgba(255,255,255,1) 78%);
+  }
+
+.sezione-home {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,8 +15,7 @@
 }
 
 .immagine-home {
-  height: 460px;
-  width: 470px;
+  height: 450px;
 }
 
 .descrizione {

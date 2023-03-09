@@ -5,7 +5,7 @@
 
   border-bottom: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(190, 187, 187);
+  border-bottom-color: rgb(209, 202, 202);
 
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@
 .prodotti:hover,
 .contatti:hover,
 .ordini:hover {
-  text-shadow: 0 0 10px rgb(185, 173, 173);
+  text-shadow: 0 0 10px rgb(135, 151, 131);
   cursor: pointer;
   font-size: 19px;
   transition: 0.3s;

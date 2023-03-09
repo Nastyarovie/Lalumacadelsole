@@ -21,6 +21,8 @@ section {
 
 .immagine-prodotto {
   width: 500px;
+  height: 500px;
+  object-fit: cover;
   border-radius: 240px;
   margin-right: 50px;
 }

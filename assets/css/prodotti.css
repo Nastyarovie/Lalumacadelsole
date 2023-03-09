@@ -1,11 +1,12 @@
 
 .pagina-prodotti {
-  height: 2000px;
-}
+  height: 100%;
+  }
 
 #titolo-prodotti {
   font-size: 45px;
-  margin-top: 120px;
+
+  padding-top: 120px;
   margin-bottom: -40px;
   color: rgb(64, 98, 41);
 }
@@ -58,9 +59,10 @@
 
 footer {
   position: absolute;
+  top: 400%;
   left: 0%;
   width: 100%;
-  background-color: red;
+  text-align: center;
 }
 
 .logo {
