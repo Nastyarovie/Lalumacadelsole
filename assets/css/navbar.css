@@ -24,7 +24,7 @@
   z-index: 1000;
 }
 
-.su-di-noi,
+.la-bava-di-lumaca,
 .prodotti,
 .contatti,
 .ordini {
@@ -32,28 +32,30 @@
 }
 
 .home,
-.su-di-noi,
 .prodotti,
 .contatti,
 .ordini {
   color: rgb(51, 50, 50);
 }
 
+.la-bava-di-lumaca {
+  color: rgb(86, 157, 64);
+  font-size: 18px;
+}
+
 .home:hover,
-.su-di-noi:hover,
+.la-bava-di-lumaca:hover,
 .prodotti:hover,
 .contatti:hover,
 .ordini:hover {
   text-shadow: 0 0 10px rgb(135, 151, 131);
   cursor: pointer;
   font-size: 19px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .link-home:link,
 .link-home:visited,
-.link-su-di-noi:link,
-.link-su-di-noi:visited,
 .link-prodotti:link,
 .link-prodotti:visited,
 .link-contatti:link,
@@ -63,3 +65,10 @@
   color: rgb(51, 50, 50);
   text-decoration: none;
 }
+
+.link-la-bava-di-lumaca:link,
+.link-la-bava-di-lumaca:visited {
+  color: rgb(86, 157, 64);
+  text-decoration: none;
+}
+

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+.pagina-la-bava-di-lumaca {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+
+  font-family: 'MV Boli', sans-serif;
+
+  height: 1000px;
+}
+
+.riga {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#riga-1,
+#riga-3 {
+  margin-left: 50px;
+}
+
+#riga-2 {
+  margin-right: 50px;
+}
+
+#titolo-l-azienda {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px gray;
+}
+
+p {
+  width: 600px;
+}
+
+.testo {
+  font-size: 18px;
+}
+
+#testo-1,
+#testo-3 {
+  margin-left: 70px;
+}
+
+#testo-2 {
+  margin-right: 70px;
+}
+
+.cosmesi-1 {
+  position: relative;
+  top: 60px;
+}
+
+.cosmesi-2 {
+  position: relative;
+  left: 180px;
+}
+
+.img-cosmesi-2 {
+  border: solid 1px rgb(195, 190, 190);
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}

@@ -1,6 +1,3 @@
-
-
-
 .sezione-ordini {
   margin-bottom: 150px;
 }
@@ -18,12 +15,12 @@
 
 .mail,
 .numero {
-  color: rgb(64, 98, 41);
+  color: rgb(86, 157, 64);
   text-decoration: none;
 }
 
 .mail:link {
-  color: rgb(64, 98, 41);
+  color: rgb(86, 157, 64);
 }
 
 .mail:hover {
