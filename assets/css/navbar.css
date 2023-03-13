@@ -26,14 +26,14 @@
 
 .la-bava-di-lumaca,
 .prodotti,
-.contatti,
+.l-azienda,
 .ordini {
   margin-left: 40px;
 }
 
 .home,
 .prodotti,
-.contatti,
+.l-azienda,
 .ordini {
   color: rgb(51, 50, 50);
 }
@@ -46,7 +46,7 @@
 .home:hover,
 .la-bava-di-lumaca:hover,
 .prodotti:hover,
-.contatti:hover,
+.l-azienda:hover,
 .ordini:hover {
   text-shadow: 0 0 10px rgb(135, 151, 131);
   cursor: pointer;
@@ -58,8 +58,8 @@
 .link-home:visited,
 .link-prodotti:link,
 .link-prodotti:visited,
-.link-contatti:link,
-.link-contatti:visited,
+.link-l-azienda:link,
+.link-l-azienda:visited,
 .link-ordini:link,
 .link-ordini:visited {
   color: rgb(51, 50, 50);

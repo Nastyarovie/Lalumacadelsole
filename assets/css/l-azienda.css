@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+.pagina-l-azienda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 100;
+
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+  height: 100%;
+}
+
+#titolo-l-azienda {
+  margin-top: 20px;
+}
+
+.paragrafo-l-azienda {
+  width: 700px;
+  margin-top: 20px;
+
+  text-align: justify;
+  font-size: 18px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

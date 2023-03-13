@@ -57,16 +57,25 @@
 }
 
 footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   position: absolute;
   top: 400%;
   left: 0%;
   width: 100%;
   text-align: center;
+
+  border-top: 1px gray solid;
 }
 
-.logo {
-  display: inline-block;
+.dove-siamo,
+.loghi,
+.contatti {
+  margin: 20px 0 20px 0;
 }
+
 
 @media (min-width: 650px) and (max-width: 1200px) {
   .grid-prodotti {
