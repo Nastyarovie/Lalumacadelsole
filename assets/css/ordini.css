@@ -1,8 +1,6 @@
 .sezione-ordini {
   margin-top: 110px;
   text-align: center;
-
-  height: 100%;
 }
 
 .info-ordini {
@@ -27,28 +25,31 @@
 }
 
 .mail:hover {
-  text-shadow: 0 0 10px rgb(185, 173, 173);
+  text-shadow: 0 0 10px rgb(130, 206, 107);
   cursor: pointer;
   transition: 0.3s;
 }
 
-
-.lalumacadelsole {
-  margin-top: 80px;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(86, 157, 64);
-}
-
-.info {
-  font-size: 25px;
-}
-
-#mail {
-  margin-bottom: 50px;
-}
-
 footer {
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 100%;
   text-align: center;
+
+  background-color: rgb(228, 222, 222);
+  border-top: 1px gray solid;
+  font-size: 16px;
+}
+
+.dove-siamo,
+.loghi,
+.contatti {
+  margin: 20px 0 20px 0;
+  font-size: 16px;
 }

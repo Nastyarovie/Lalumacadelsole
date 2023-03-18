@@ -42,6 +42,11 @@ p {
   margin-top: 15px;
 }
 
+.prezzo-prodotto {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
 .descrizione-prodotto {
   font-size: 18px;
   font-weight: 400;
@@ -54,6 +59,12 @@ p {
   font-weight: 100;
   margin-top: 25px;
   line-height: 18px;
+}
+
+.novità {
+  font-size: 20px;
+  color: rgb(86, 157, 64);
+  margin-bottom: 20px;
 }
 
 
