@@ -24,7 +24,8 @@
 }
 
 .immagine-prodotto:hover {
-  width: 102%;
+  width: 310px;
+  height: 310px;
   opacity: 85%;
   transition: 0.5s;
   cursor: pointer;
@@ -60,6 +61,20 @@
   text-align: center;
 }
 
+.sottotitolo-cosmesi {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: -30px;
+  font-size: 35px;
+}
+
+.sottotitolo-food {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -67,7 +82,7 @@ footer {
   margin: 0;
 
   position: absolute;
-  top: 400%;
+  top: 700%;
   left: 0%;
   width: 100%;
   text-align: center;
