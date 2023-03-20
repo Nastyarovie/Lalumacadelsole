@@ -1,0 +1,72 @@
+nav{
+  background: white;
+  height: 52px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  font-family: 'MV Boli', sans-serif;
+  border-bottom: 1px solid rgb(69, 104, 43);
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav ul ul{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+nav ul li{
+  position: relative;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul li li{
+  position: relative;
+  float: none;
+  width: 100%;
+  border: none;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: rgb(69, 104, 43);
+  font-size: 1.1em;
+  padding: 12px 0px;
+}
+
+nav ul ul li a{
+  font-size: 1 em;
+  color: rgb(106, 168, 70);
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid rgb(69, 104, 43);
+}
+
+nav ul li a:hover{
+  color: white;
+  background-color: rgb(106, 168, 70);
+  transition: 0.5s;
+}
+
+nav ul li li a:hover{
+  color: white;
+  background-color: rgb(86, 157, 64);
+}

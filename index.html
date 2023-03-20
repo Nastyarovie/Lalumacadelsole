@@ -15,7 +15,7 @@
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/navbar-home.css">
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/prodotti.css">
 
@@ -50,23 +50,38 @@
 
 <body>
 
-  <div class="navbar">
-    <div class="home">
-      <a class="link-home" href="index.html">Home</a>
-    </div>
-    <div class="la-bava-di-lumaca">
-      <a class="link-la-bava-di-lumaca" href="la-bava-di-lumaca.html">La bava di lumaca</a>
-    </div>
-    <div class="prodotti">
-      <a class="link-prodotti" href="index.html#pagina-prodotti">Prodotti</a>
-    </div>
-    <div class="l-azienda">
-      <a class="link-l-azienda" href="l-azienda.html">L'Azienda</a>
-    </div>
-    <div class="ordini">
-      <a class="link-ordini" href="ordini.html">Ordini</a>
-    </div>
-  </div>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a class="link-home" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="link-lumaca-bava" href="lumaca-bava.html">La lumaca e la sua bava</a>
+        </li>
+        <li>
+          <a class="link-prodotti" href="index.html#pagina-prodotti">Prodotti</a>
+            <ul>
+              <li>
+                <a href="cosmesi.html">Cosmesi</a>
+              </li>
+              <li>
+                <a href="alimentazione.html">Alimentazione</a>
+              </li>
+              <li>
+                <a href="integratori.html">Integratori</a>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a class="link-l-azienda" href="l-azienda.html">L'Azienda</a>
+        </li>
+        <li>
+          <a class="link-ordini" href="ordini.html">Ordini</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
 <div class="pagina-home">
   <div class="sezione-home">
@@ -76,7 +91,8 @@
   <div class="descrizione">
     <h1 id="carousel-words">Benvenuto!</h1>
     <p class="p-descrizione">
-      Breve descrizione
+      Vai piano ma sano e lontano.. <br>
+      Scopri tutti i segreti delle nostre preziose amiche lumache, dalla cosmesi all'alimentazione.
     </p>
   </div>
   </div>
@@ -91,524 +107,6 @@
     </svg>
   </div>
 </div>
-
-  <div id="pagina-prodotti"></div>
-  <div class="pagina-prodotti" >
-    <h1 class="titolo-sezione" id="titolo-prodotti">
-      Prodotti
-    </h1>
-
-    <h2 class="sottotitolo-cosmesi">
-      Cosmesi
-    </h2>
-
-    <section class="grid-prodotti">
-
-      <div class="div-prodotto">
-        <div class="grid-info-prodotto">
-          <a href="lista-prodotti/crema-viso.html" target="_blank">
-            <img class="immagine-prodotto" src="assets/img/prodotti/crema-viso.jpg">
-          </a>
-        </div>
-        <div class="grid-info-prodotto">
-            <p class="nome-prodotto">
-              CREMA VISO
-            </p>
-            <p class="percentuale-bava">
-              80% di bava
-            </p>
-            <p class="prezzo-prodotto">
-              32,90 €
-            </p>
-          </div>
-        </div>
-
-      <div class="div-prodotto">
-        <div class="grid-info-prodotto">
-          <a href="lista-prodotti/latte-detergente.html" target="_blank">
-            <img class="immagine-prodotto" src="assets/img/prodotti/latte-detergente.jpg">
-          </a>
-        </div>
-        <div class="info-prodotto">
-          <p class="nome-prodotto">
-            LATTE DETERGENTE
-          </p>
-          <p class="percentuale-bava">
-            30% di bava
-          </p>
-          <p class="prezzo-prodotto">
-            24,90 €
-          </p>
-        </div>
-      </div>
-
-      <div class="div-prodotto">
-         <div class="grid-info-prodotto">
-          <a href="lista-prodotti/siero-antiage-viso.html" target="_blank">
-            <img class="immagine-prodotto" src="assets/img/prodotti/siero-viso.jpg">
-          </a>
-        </div>
-        <div class="info-prodotto">
-          <p class="nome-prodotto">
-            SIERO ANTIAGE VISO
-          </p>
-          <p class="percentuale-bava">
-            90% di bava
-          </p>
-          <p class="prezzo-prodotto">
-            31,90 €
-          </p>
-        </div>
-      </div>
-
-      <div class="div-prodotto">
-        <div class="grid-info-prodotto">
-         <a href="lista-prodotti/gocce.html" target="_blank">
-           <img class="immagine-prodotto" src="assets/img/prodotti/gocce.jpg">
-         </a>
-       </div>
-       <div class="info-prodotto">
-         <p class="nome-prodotto">
-          GOCCE DI BAVA PURISSIMA 
-         </p>
-         <p class="percentuale-bava">
-          95% di bava
-         </p>
-         <p class="prezzo-prodotto">
-          26,90 €
-        </p>
-       </div>
-     </div>
-              
-     <div class="div-prodotto">
-      <div class="grid-info-prodotto">
-       <a href="lista-prodotti/crema-mani.html" target="_blank">
-         <img class="immagine-prodotto" src="assets/img/prodotti/crema-mani.jpg">
-       </a>
-     </div>
-     <div class="info-prodotto">
-       <p class="nome-prodotto">
-        CREMA MANI
-       </p>
-       <p class="percentuale-bava">
-         70% di bava
-       </p>
-       <p class="prezzo-prodotto">
-        23,90 €
-      </p>
-     </div>
-   </div>
-
-    <div class="div-prodotto">
-      <div class="grid-info-prodotto">
-      <a href="lista-prodotti/crema-corpo.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/crema-corpo.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        CREMA CORPO
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        27,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/contorno-occhi.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/contorno-occhi.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        CONTORNO OCCHI
-      </p>
-      <p class="percentuale-bava">
-        50% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        17,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/maschera-viso.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/maschera-viso.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        MASCHERA VISO
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        22,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/maschera-viso-black-mask.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/maschera-viso-black-mask.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        MASCHERA VISO - BLACK MASK
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        22,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/acqua-micellare.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/acqua-micellare.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        ACQUA MICELLARE
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        19,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/shampoo-lenitivo.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/shampoo-lenitivo.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        SHAMPOO LENITIVO
-      </p>
-      <p class="percentuale-bava">
-        20% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        18,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/balsamo-capelli.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/balsamo-capelli.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        BALSAMO CAPELLI
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        19,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/arnika.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/arnika.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        CREMA ALL'ARNIKA
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        19,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/scrub.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/scrub.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        SCRUB CORPO LEVIGANTE
-      </p>
-      <p class="prezzo-prodotto">
-        23,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/dopobarba.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/dopobarba.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        DOPOBARBA GEL
-      </p>
-      <p class="percentuale-bava">
-        30% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        15,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/bagno-doccia.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/bagno-doccia.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        BAGNO DOCCIA
-      </p>
-      <p class="percentuale-bava">
-        40% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        17,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/sapone.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/sapone.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        SAPONE
-      </p>
-      <p class="percentuale-bava">
-        20% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        9,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/sciroppo-tosse.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/sciroppo-tosse.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        SCIROPPO TOSSE
-      </p>
-      <p class="percentuale-bava">
-        20% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        19,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-vuoto">
-    <div class="grid-info-vuoto">
-      <a >
-        <img class="immagine-vuoto" >
-      </a>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/sciroppo-gastro.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/sciroppo-gastro.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        SCIROPPO GASTRO
-      </p>
-      <p class="percentuale-bava">
-        20% di bava
-      </p>
-      <p class="prezzo-prodotto">
-        19,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-vuoto">
-    <div class="grid-info-vuoto">
-      <a >
-        <img class="immagine-vuoto" >
-      </a>
-    </div>
-  </div>
-
-  <div class="div-vuoto">
-    <div class="grid-info-vuoto">
-      <a >
-        <img class="immagine-vuoto" >
-      </a>
-    </div>
-  </div>
-
-  <h2 class="sottotitolo-food">
-    Food
-  </h2>
-
-  <div class="div-vuoto">
-    <div class="grid-info-vuoto">
-      <a >
-        <img class="immagine-vuoto" >
-      </a>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/lumache-al-naturale.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/lumache-al-naturale.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        LUMACHE AL NATURALE
-      </p>
-      <p class="prezzo-prodotto">
-        29,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/lumache-al-naturale-2.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/lumache-al-naturale-2.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        LUMACHE AL NATURALE
-      </p>
-      <p class="prezzo-prodotto">
-        19,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/lumache-al-naturale-3.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/lumache-al-naturale-3.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        LUMACHE AL NATURALE
-      </p>
-      <p class="prezzo-prodotto">
-        14,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/lumache-per-pizza.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/lumache-per-pizza.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        LUMACHE PER PIZZA
-      </p>
-      <p class="prezzo-prodotto">
-        18,90 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/lumache-alla-boscaiola.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/lumache-alla-boscaiola.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        LUMACHE ALLA BOSCAIOLA
-      </p>
-      <p class="prezzo-prodotto">
-        19,50 €
-      </p>
-    </div>
-  </div>
-
-  <div class="div-prodotto" id="prodotto-sciroppo-tosse">
-    <div class="grid-info-prodotto">
-      <a href="lista-prodotti/lumache-all-arrabbiata.html" target="_blank">
-        <img class="immagine-prodotto" src="assets/img/prodotti/lumache-all-arrabbiata.jpg">
-      </a>
-    </div>
-    <div class="info-prodotto">
-      <p class="nome-prodotto">
-        LUMACHE ALL'ARRABBIATA
-      </p>
-      <p class="prezzo-prodotto">
-        19,50 €
-      </p>
-    </div>
-  </div>
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
  <footer>
   <div class="dove-siamo">

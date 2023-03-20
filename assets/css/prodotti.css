@@ -3,16 +3,14 @@
   padding: 0;
 }
 
-.pagina-prodotti {
-  height: 100%;
-  }
-
-#titolo-prodotti {
-  font-size: 45px;
-
-  padding-top: 120px;
-  margin-bottom: -40px;
+.titolo-alimentazione,
+.titolo-cosmesi,
+.titolo-integratori{
+  margin-top: 120px;
+  margin-bottom: -20px;
+  text-align: center;
 }
+
 
 .immagine-prodotto {
   width: 300px;
@@ -82,7 +80,7 @@ footer {
   margin: 0;
 
   position: absolute;
-  top: 900%;
+  top: 100%;
   left: 0%;
   width: 100%;
   text-align: center;

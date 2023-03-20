@@ -10,7 +10,7 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  margin-top: 60px;
+  margin-top: 52px;
   height: 550px;
 }
 
@@ -19,15 +19,17 @@
 }
 
 .descrizione {
-  width: 470px;
+  width: 560px;
   font-size: 30px;
   font-weight: 100;
   color: rgb(69, 104, 43);
 }
 
 .p-descrizione {
-  font-weight: 400;
-  color: rgb(51, 50, 50);
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(65, 97, 40);
+  margin-top: 20px;
 }
 
 .bottone-1 {

@@ -13,10 +13,23 @@ body {
   color: rgb(86, 157, 64);
 }
 
+h1,
 h2 {
-  color: rgb(86, 157, 64);
+  color: rgb(69, 108, 43);
 }
 
 .logo {
   width: 50px;
+}
+
+.footer-alimentazione{
+  top: 200%;
+}
+
+.footer-cosmesi{
+  top: 430%;
+}
+
+.footer-integratori{
+  top: 100%;
 }
