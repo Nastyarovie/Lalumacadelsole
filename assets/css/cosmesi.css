@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.titolo-cosmesi {
+  font-size: 35px;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+
+.descrizione {
+  width: 600px;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(157, 157, 157);
+}
+
+.descrizione,
+.immagini {
+  margin-bottom: 60px;
+}
+
+.testo {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+ul {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold-green {
+  font-weight: bold;
+  color: rgb(86, 157, 64);
+}
+
+.contenuto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.immagini {
+  position: relative;
+}
+
+.cosmesi-1,
+.cosmesi-2,
+.cosmesi-3,
+.cosmesi-4 {
+  width: 350px;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 0 0 10px gray;
+}
+
+.cosmesi-1 {
+  right: 300px;
+  top: 50px;
+}
+
+.cosmesi-2 {
+  right: 10px;
+  bottom: 50px;
+}
+
+.cosmesi-3 {
+  left: 20px;
+  top: 30px;
+}
+
+.cosmesi-4 {
+  left: 310px;
+  top: 200px;
+}
+
+.footer-cosmesi{
+  top: 550%;
+}
+
+
+
+

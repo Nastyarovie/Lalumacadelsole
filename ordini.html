@@ -16,7 +16,7 @@
   
   
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/navbar-generale.css">
     <link rel="stylesheet" href="assets/css/ordini.css">
   
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -45,23 +45,38 @@
 
 <body>
   
-  <div class="navbar">
-    <div class="home">
-      <a class="link-home" href="index.html">Home</a>
-    </div>
-    <div class="la-bava-di-lumaca">
-      <a class="link-la-bava-di-lumaca" href="la-bava-di-lumaca.html">La bava di lumaca</a>
-    </div>
-    <div class="prodotti">
-      <a class="link-prodotti" href="index.html#pagina-prodotti">Prodotti</a>
-    </div>
-    <div class="l-azienda">
-      <a class="link-l-azienda" href="l-azienda.html">L'Azienda</a>
-    </div>
-    <div class="ordini">
-      <a class="link-ordini" href="ordini.html">Ordini</a>
-    </div>
-  </div>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a class="link-home" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="link-lumaca-bava" href="lumaca-bava.html">La lumaca e la sua bava</a>
+        </li>
+        <li>
+          <a class="link-prodotti" href="index.html#pagina-prodotti">Prodotti</a>
+            <ul>
+              <li>
+                <a href="cosmesi.html">Cosmesi</a>
+              </li>
+              <li>
+                <a href="alimentazione.html">Alimentazione</a>
+              </li>
+              <li>
+                <a href="integratori.html">Integratori</a>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a class="link-l-azienda" href="l-azienda.html">L'Azienda</a>
+        </li>
+        <li>
+          <a class="link-ordini" href="ordini.html">Ordini</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <div class="sezione-ordini">
     <h1 class="titolo-sezione" id="titolo-ordini">Ordini</h1>

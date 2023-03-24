@@ -3,15 +3,6 @@
   padding: 0;
 }
 
-.titolo-alimentazione,
-.titolo-cosmesi,
-.titolo-integratori{
-  margin-top: 120px;
-  margin-bottom: -20px;
-  text-align: center;
-}
-
-
 .immagine-prodotto {
   width: 300px;
   height: 300px;

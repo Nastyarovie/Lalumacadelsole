@@ -6,9 +6,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 30px;
-
   font-family: 'MV Boli', sans-serif;
-
   height: 1000px;
 }
 
@@ -19,8 +17,7 @@
   justify-content: center;
 }
 
-#riga-1,
-#riga-3 {
+#riga-1 {
   margin-left: 50px;
 }
 
@@ -46,15 +43,14 @@ img {
 }
 
 p {
-  width: 600px;
+  width: 620px;
 }
 
 .testo {
   font-size: 18px;
 }
 
-#testo-1,
-#testo-3 {
+#testo-1 {
   margin-left: 70px;
 }
 

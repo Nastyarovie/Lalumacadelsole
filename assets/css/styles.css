@@ -5,12 +5,7 @@
 body {
   margin: 0px;
   font-family: 'MV Boli', sans-serif;
-}
-
-.titolo-sezione {
-  margin-top: -20px;
-  text-align: center;
-  color: rgb(86, 157, 64);
+  font-size: 18px;
 }
 
 h1,
@@ -22,14 +17,3 @@ h2 {
   width: 50px;
 }
 
-.footer-alimentazione{
-  top: 200%;
-}
-
-.footer-cosmesi{
-  top: 430%;
-}
-
-.footer-integratori{
-  top: 100%;
-}
