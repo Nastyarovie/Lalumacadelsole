@@ -1,17 +1,20 @@
-.sezione-ordini {
-  margin-top: 110px;
-  text-align: center;
+body {
+
 }
 
-.info-ordini {
+
+.sezione-ordini {
+  margin-top: 130px;
   text-align: center;
 
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  text-align: center;
   margin-top: 50px;
   font-size: 25px;
-}
-
-#titolo-ordini {
-  margin-top: 20px;
 }
 
 .mail,
@@ -34,11 +37,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0;
-
-  position: absolute;
-  top: 80%;
-  left: 0%;
+  margin: 100px 0 0 0;
   width: 100%;
   text-align: center;
 
@@ -52,4 +51,8 @@ footer {
 .contatti {
   margin: 20px 0 20px 0;
   font-size: 16px;
+}
+
+.info-ordini {
+  height: 500px;
 }
