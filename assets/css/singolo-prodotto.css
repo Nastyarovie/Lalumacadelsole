@@ -6,6 +6,9 @@ body {
   margin: 0px;
   font-family: 'MV Boli', sans-serif;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
@@ -15,8 +18,7 @@ section {
   justify-content: center;
   row-gap: 50px;
   flex-wrap: wrap;
-
-  margin-top: 10%;
+  margin-top: 100px;
 }
 
 
@@ -68,6 +70,31 @@ p {
   font-size: 20px;
   color: red;
   margin-bottom: 20px;
+}
+
+.torna-indietro {
+  font-family: 'MV Boli', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin: 60px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid rgb(64, 98, 41);
+  background-color: rgb(70, 106, 46);
+  box-shadow: 0 0 15px rgb(64, 98, 41);
+}
+
+.torna-indietro a,
+.torna-indietro a:link,
+.torna-indietro a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.torna-indietro:hover {
+  background-color: rgb(49, 77, 31);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 
