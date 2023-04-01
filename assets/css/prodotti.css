@@ -42,9 +42,11 @@
 .percentuale-bava {
   margin-top: 5px;
   text-align: center;
+  font-size: 14px;
 }
 
-.prezzo-prodotto {
+.prezzo-prodotto,
+.formato-prodotto {
   font-size: 14px;
   margin-top: 8px;
   text-align: center;
