@@ -9,6 +9,8 @@ nav{
   font-family: 'MV Boli', sans-serif;
   border-bottom: 1px solid rgb(69, 104, 43);
 
+  line-height: 28px;
+
   z-index: 1000;
 }
 

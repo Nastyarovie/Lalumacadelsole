@@ -3,22 +3,45 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .titolo-cosmesi {
   font-size: 35px;
   margin-top: 140px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
+.contenuto-1 {
+  display: grid;
+  grid-template-columns: 700px 500px;
+  column-gap: 20px;
+  margin-bottom: 30px;
+}
 
-.descrizione {
-  width: 600px;
-  padding: 30px 50px;
+.contenuto-2 {
+  display: grid;
+  grid-template-columns: 500px 700px;
+  column-gap: 20px;
+}
+
+.descrizione-1,
+.descrizione-2 {
+  padding: 20px 40px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgb(157, 157, 157);
 }
+
+.descrizione-1 {
+  width: 680px;
+}
+
+.descrizione-2 {
+  width: 620px;
+}
+
+
 
 .descrizione,
 .immagini {
@@ -46,11 +69,7 @@ ul {
   color: rgb(86, 157, 64);
 }
 
-.contenuto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 30px;
-}
+
 
 .immagini {
   position: relative;
@@ -60,30 +79,33 @@ ul {
 .cosmesi-2,
 .cosmesi-3,
 .cosmesi-4 {
-  width: 350px;
   border-radius: 20px;
   position: absolute;
   box-shadow: 0 0 10px gray;
 }
 
 .cosmesi-1 {
-  right: 300px;
-  top: 50px;
+  width: 280px;
+  right: 145px;
+  top: 20px;
 }
 
 .cosmesi-2 {
-  right: 10px;
-  bottom: 50px;
+  width: 280px;
+  right: 0px;
+  bottom: -50px;
 }
 
 .cosmesi-3 {
-  left: 20px;
-  top: 30px;
+  width: 270px;
+  left: 0px;
+  top: 50px;
 }
 
 .cosmesi-4 {
-  left: 310px;
-  top: 200px;
+  width: 270px;
+  left: 220px;
+  top: 220px;
 }
 
 

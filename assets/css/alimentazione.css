@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .titolo-alimentazione {
@@ -19,7 +20,8 @@ body {
 
 .descrizione {
   width: 350px;
-  margin-top: 30px;
+  height: 100%;
+  margin-top: 45px;
   padding: 30px 50px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgb(157, 157, 157);
@@ -28,10 +30,6 @@ body {
 .descrizione,
 .immagini {
   margin-bottom: 60px;
-}
-
-.testo {
-  margin-bottom: 30px;
 }
 
 span {
@@ -46,7 +44,7 @@ span {
 
 .alimentazione-1,
 .alimentazione-2 {
-  width: 300px;
+  width: 270px;
   border-radius: 20px;
   box-shadow: 0 0 10px gray;
 }

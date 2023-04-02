@@ -37,7 +37,6 @@ h2 {
 }
 
 img {
-  width: 300px;
   border-radius: 20px;
   box-shadow: 0 0 10px gray;
 }
@@ -58,6 +57,10 @@ p {
   margin-right: 70px;
 }
 
+.lumaca {
+  width: 300px;
+}
+
 .cosmesi-1 {
   position: relative;
   top: 60px;
@@ -66,10 +69,15 @@ p {
 .cosmesi-2 {
   position: relative;
   left: 180px;
+  top: -20px;
+}
+
+.img-cosmesi-1 {
+  width: 280px;
 }
 
 .img-cosmesi-2 {
-  border: solid 1px rgb(195, 190, 190);
+  width: 270px;
 }
 
 footer {
