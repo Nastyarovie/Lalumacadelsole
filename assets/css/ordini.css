@@ -26,6 +26,11 @@ img {
   text-decoration: none;
 }
 
+.mail {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .mail:link {
   color: rgb(86, 157, 64);
 }
