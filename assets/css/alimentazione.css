@@ -23,7 +23,7 @@ body {
 .descrizione {
   width: 30%;
   height: 100%;
-  margin-top: 45px;
+  margin-top: 6%;
   padding: 30px 50px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgb(157, 157, 157);
@@ -31,7 +31,7 @@ body {
 
 .descrizione,
 .immagini {
-  margin-bottom: 60px;
+  margin-bottom: 10%;
 }
 
 span {

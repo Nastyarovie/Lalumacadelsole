@@ -7,7 +7,7 @@
   grid-template-rows: 1fr 1fr;
   row-gap: 30px;
   font-family: 'MV Boli', sans-serif;
-  height: 1000px;
+  height: 1300px;
 }
 
 .riga {
@@ -15,20 +15,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-#riga-1 {
-  margin-left: 50px;
-}
-
-#riga-2 {
-  margin-right: 50px;
-}
-
-#titolo-l-azienda {
+#titolo {
   text-align: center;
-  margin-top: 110px;
-  margin-bottom: 20px;
+  margin-top: 8%;
+  margin-bottom: 4%;
   height: 50px;
 }
 
@@ -93,3 +86,26 @@ footer {
   border-top: 1px gray solid;
   font-size: 16px;
 }
+
+@media (min-width: 200px) and (max-width: 1000px) {
+  img {
+    display: none;
+  }
+
+  p {
+    text-align: center;
+    width: 90%;
+  }
+
+  .riga {
+    align-items: center;
+    justify-content: center;
+    margin: none;
+  }
+
+  #testo-1,
+  #testo-2 {
+    margin: 0px;
+  }
+}
+

@@ -50,10 +50,19 @@ body {
 
 h2 {
   margin: 100px 0 60px 0;
+  text-align: center;
 }
 
 h3 {
   margin-bottom: -15px;
   color: rgb(3,121,18);
   text-align: center;
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+  .contenuto-1,
+  .contenuto-2,
+  .contenuto-3 {
+    grid-template-columns: 1fr;
+  }
 }

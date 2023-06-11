@@ -41,8 +41,6 @@ body {
   width: 620px;
 }
 
-
-
 .descrizione,
 .immagini {
   margin-bottom: 60px;
@@ -106,6 +104,27 @@ ul {
   width: 270px;
   left: 220px;
   top: 220px;
+}
+
+@media (min-width: 200px) and (max-width: 1300px) {
+  .immagini {
+    display: none;
+  }
+
+  .descrizione {
+    width: 50%;
+  }
+
+  .contenuto-1,
+  .contenuto-2  {
+    grid-template-columns: 90%;
+    justify-content: center;
+  }
+
+  .descrizione-1,
+  .descrizione-2 {
+    width: 90%;
+  }
 }
 
 
