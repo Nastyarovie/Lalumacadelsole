@@ -13,11 +13,13 @@
 }
 
 p {
-  margin-top: 40px;
+  margin-top: 20px;
+  line-height: 1.4;
 }
 
 img {
   width: 300px;
+  margin-top: -40px;
 }
 
 .mail,
